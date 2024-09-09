@@ -49,6 +49,7 @@ def add_element_to_the_beginning(lst: list) -> list:
     """
     Add the element "Eggs" to the beginning of the list
     """
+    lst.insert(0,0)
     lst.insert(0,"Eggs") 
     return lst
 
